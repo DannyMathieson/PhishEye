@@ -4,4 +4,4 @@ Homograph attacks are a technique used within the advanced persistent threat cyb
 ### Replication
   - pip install -r requirements.txt
   - Jupyter Notebook provided will create dataset based on current DNSTwist registration information, so results may vary
-  - Jupyter Notebook contains checkpoint cells to populate dataset from previsouly created datasets, allowing for deterministic replication of results, when properly seeded.
+  - Jupyter Notebook contains checkpoint cells to populate dataset from previously created datasets, allowing for deterministic replication of results, when properly seeded.
