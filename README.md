@@ -1,1 +1,7 @@
 # PhishEye: Human Visual Perception of Preeminent Homograph Attack Techniques
+Homograph attacks are a technique used within the advanced persistent threat cyber attack chain to gain access to a users network through manipulation of trust in a legitimate domain. Often, these threats apply permutations to trusted domains with the goal of soliciting users to visit a domain controlled by the malicious actor. While there is a wealth of research on typographical input of homograph domains, it offers little support in defense of homographs present visually to a user, such as in a phishing attack. We propose PhishEye, a  a multi-featured, vision-based classifier used to detect homograph domains. PhishEye uses information extracted from images of domains to classify domain permutations with accuracy comparable to common linguistic classifiers. PhishEye's extraction layer allows for feature analysis to identify the common linguistic alterations used to construct the most visually similar homograph domains. PhishEye provides a novel approach to the detection of malicious domains in order protect end-users from pervasive homograph attacks.
+
+### Replication
+  - pip install -r requirements.txt
+  - Jupyter Notebook provided will create dataset based on current DNSTwist registration information, so results may vary
+  - Jupyter Notebook contains checkpoint cells to populate dataset from previsouly created datasets, allowing for deterministic replication of results, when properly seeded.
